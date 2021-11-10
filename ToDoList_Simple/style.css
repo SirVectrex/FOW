@@ -25,6 +25,15 @@ body{
     border-radius: 5px;
     box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
   }
+
+#temp{
+  color: blue;
+}
+
+.temperature {
+display: inline-flex;
+
+}
 .wrapper{
   background: #fff;
   max-width: 400px;
@@ -95,6 +104,7 @@ body{
   overflow: hidden;
   word-wrap: break-word;
 }
+
 .todoList li .icon{
   position: absolute;
   right: -45px;

@@ -33,11 +33,11 @@ addBtn.onclick = ()=>{ //when user click on plus icon button
 }
 
 async function getData() {
-    url = "https://api.openweathermap.org/data/2.5/weather?q=Munich&units=metric&appid=key"
+    url = "https://api.openweathermap.org/data/2.5/weather?q=Munich&units=metric&appid=d340ac23d122337aafdb6635b59aaae2"
     const response = await fetch(url)
     const data = await response.json()
-    console.log(data)
-
+    document.getElementById("temp").innerHTML =  data.main.temp
+    
 }
 
 function showTasks(){
