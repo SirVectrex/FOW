@@ -11,11 +11,9 @@ app.get("/api/getName", async function(request, response){
 });
 
 app.get('/error', function (req, res){
-    res.status(202)
-    res.send("nope...")
+    res.status(200)
+    res.send("OK")
 })
-
-
 
 app.listen(PORT, function() {
   console.log(`Running on ${PORT}`);

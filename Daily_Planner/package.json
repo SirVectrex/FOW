@@ -1,0 +1,15 @@
+{
+  "name": "anny",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Florian Schulenberg",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express-server": "^0.7.0",
+    "pug": "^3.0.2"
+  }
+}

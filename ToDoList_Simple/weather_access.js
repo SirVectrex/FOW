@@ -3,9 +3,6 @@ async function getData() {
 
     const data = await response.json()
     console.log("test" + response)
-
-
-
 }
 
 getData
